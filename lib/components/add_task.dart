@@ -18,7 +18,7 @@ class AddTask extends StatelessWidget {
     return AlertDialog(
       backgroundColor: Colors.indigo[100],
       content: SizedBox(
-        height: 140,
+        height: 150,
         child: Column(
           children: [
             Padding(

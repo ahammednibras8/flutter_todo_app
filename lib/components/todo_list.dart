@@ -46,14 +46,14 @@ class TodoList extends StatelessWidget {
                 child: Text(
                   taskName,
                   style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 18,
-                    fontWeight: FontWeight.w600,
-                    decoration: taskCompleted
-                        ? TextDecoration.lineThrough
-                        : TextDecoration.none,
-                    decorationColor: Colors.white,
-                  ),
+                      color: Colors.white,
+                      fontSize: 18,
+                      fontWeight: FontWeight.w600,
+                      decoration: taskCompleted
+                          ? TextDecoration.lineThrough
+                          : TextDecoration.none,
+                      decorationColor: Colors.white,
+                      decorationThickness: 1.9),
                 ),
               ),
               Checkbox(
